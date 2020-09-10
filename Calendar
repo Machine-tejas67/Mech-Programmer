@@ -1,0 +1,7 @@
+#Here we are creating calendar by simple code
+#If you want your year and month you can get it
+import calendar
+year=int(input("Please Enter Year:"))
+month=int(input("Please Enter month:"))
+#After executing below print you can get your output
+print(calendar.month(year,month))
